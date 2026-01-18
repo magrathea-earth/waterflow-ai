@@ -1,12 +1,10 @@
-name: Build Android APK
+- name: Set up Android SDK
+  uses: android-actions/setup-android@v2
+  with:
+    api-level: 33
+    build-tools: 33.0.2
+    target: android-33
 
-on:
-  push:
-    branches: [ "main" ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
 
     steps:
       # 1️⃣ Download your code
