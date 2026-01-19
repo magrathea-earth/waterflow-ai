@@ -39,7 +39,5 @@ jobs:
           name: waterflow-apk
           path: app/build/outputs/apk/debug/app-debug.apk
 
-          name: waterflow-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
 
 
